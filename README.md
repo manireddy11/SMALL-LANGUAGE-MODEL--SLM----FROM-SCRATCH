@@ -9,7 +9,7 @@
 
 
 
-🌟 <p align="left">
+ <p align="left">
   <img src="https://img.shields.io/badge/🌟%20Introduction-87CEEB?style=for-the-badge&logoColor=white&labelColor=87CEEB&color=87CEEB" />
 </p>
 
@@ -31,7 +31,10 @@ And I didn’t quit.
 What I achieved is a working language model that generates coherent text stories — proof that I can build and train core NLP systems myself.
 
 🛠️ Key Steps
-🔹 Dataset Loading
+<p align="left">
+  <img src="https://img.shields.io/badge/🔹%20Dataset%20Loading-87CEEB?style=for-the-badge&logoColor=white&labelColor=87CEEB&color=87CEEB" />
+</p>
+
 
 I used the TinyStories dataset via Hugging Face.
 This dataset provides a collection of short children’s stories — simple enough to train a small model, but rich enough to demonstrate learning.
@@ -44,7 +47,10 @@ This dataset provides a collection of short children’s stories — simple enou
 The progress bars show successful loading of millions of tokens into memory, with automatic train/validation splits.
 
 
-🔹 Training Progress
+<p align="left">
+  <img src="https://img.shields.io/badge/🔹%20Training%20Progress-8A2BE2?style=for-the-badge&logoColor=white&labelColor=8A2BE2&color=8A2BE2" />
+</p>
+
 
 The model was trained for 20,000 iterations with checkpoints at every 500 epochs.
 I monitored both training loss and validation loss closely.
@@ -66,7 +72,10 @@ The green progress bar shows GPU-backed training across ~3.5 hours.
 
 This wasn’t just code running; it was proof of learning.
 
-🔹 Text Generation
+<p align="left">
+  <img src="https://img.shields.io/badge/🔹%20Text%20Generation-8A2BE2?style=for-the-badge&logoColor=white&labelColor=8A2BE2&color=8A2BE2" />
+</p>
+
 
 Once trained, I gave the model seed sentences like:
 
@@ -103,7 +112,10 @@ This is the beauty of training from scratch — seeing text emerge from noise in
 </p>
 
 
-⚡ Skills Demonstrated
+<p align="left">
+  <img src="https://img.shields.io/badge/⚡%20Skills%20Demonstrated-800000?style=for-the-badge&logoColor=white&labelColor=800000&color=800000" />
+</p>
+
 
 Transformer Internals: Built attention, embeddings, and positional encoding manually.
 
@@ -119,7 +131,10 @@ Persistence: Spent hours fine-tuning and debugging until convergence.
 
 .
 
-🚀 How to Run
+<p align="left">
+  <img src="https://img.shields.io/badge/🚀%20How%20to%20Run-00008B?style=for-the-badge&logoColor=white&labelColor=00008B&color=00008B" />
+</p>
+
 
 Clone the repo:
 
@@ -144,7 +159,10 @@ Scale layers/heads for better fluency.
 
 Deploy as a lightweight text generation API.
 
-❤️ Personal Reflection
+<p align="left">
+  <img src="https://img.shields.io/badge/❤️%20Personal%20Reflection-FFD700?style=for-the-badge&logoColor=white&labelColor=FFD700&color=FFD700" />
+</p>
+
 
 This project wasn’t just about code.
 It was about proving to myself — and to recruiters — that I can:
