@@ -42,4 +42,31 @@ The progress bars show successful loading of millions of tokens into memory, wit
 The model was trained for 20,000 iterations with checkpoints at every 500 epochs.
 I monitored both training loss and validation loss closely.
 
+<p align="center">
+  <a href="https://github.com/manireddy11/SMALL-LANGUAGE-MODEL--SLM----FROM-SCRATCH/blob/94c4ac9a33e5d72d36d45778d15ef665a37b07a5/Screenshot%202025-08-26%20220314.png" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/manireddy11/SMALL-LANGUAGE-MODEL--SLM----FROM-SCRATCH/94c4ac9a33e5d72d36d45778d15ef665a37b07a5/Screenshot%202025-08-26%20220314.png" alt="Project screenshot" style="max-width:100%; height:auto;" />
+  </a>
+</p>
+
+
+Here’s what we observe:
+
+Training loss decreases steadily from ~9.4 → ~4.3.
+
+Validation loss follows the same downward trend, proving generalization.
+
+The green progress bar shows GPU-backed training across ~3.5 hours.
+
+This wasn’t just code running; it was proof of learning.
+
+🔹 Text Generation
+
+Once trained, I gave the model seed sentences like:
+
+“Once upon a time there was a pumpkin.”
+
+“A little girl went to the woods.”
+
+
+
 
