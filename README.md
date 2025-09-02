@@ -132,9 +132,8 @@ Persistence: Spent hours fine-tuning and debugging until convergence.
 .
 
 <p align="left">
-  <img src="https://img.shields.io/badge/🚀%20How%20to%20Run-00008B?style=for-the-badge&logoColor=white&labelColor=00008B&color=00008B" />
+  <img src="https://img.shields.io/badge/🚀%20How%20to%20Run-808080?style=for-the-badge&logoColor=white&labelColor=808080&color=808080" />
 </p>
-
 
 Clone the repo:
 
