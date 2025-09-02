@@ -9,7 +9,10 @@
 
 
 
-🌟 Introduction
+🌟 <p align="left">
+  <img src="https://img.shields.io/badge/🌟%20Introduction-87CEEB?style=for-the-badge&logoColor=white&labelColor=87CEEB&color=87CEEB" />
+</p>
+
 
 Most people today fine-tune Hugging Face models or call APIs.
 I chose the hard way: building a Small Language Model (SLM) from scratch.
