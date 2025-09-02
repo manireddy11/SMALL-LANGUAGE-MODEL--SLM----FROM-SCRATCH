@@ -2,8 +2,21 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🧠%20Building%20a%20Small%20Language%20Model%20from%20Scratch-90ee90?style=for-the-badge&logoColor=white&labelColor=90ee90&color=90ee90" width="700"/>
+  <span style="
+    display:inline-block;
+    background: rgba(144, 238, 144, 0.25); /* light green with 25% opacity */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    backdrop-filter: blur(10px); /* glass blur effect */
+    -webkit-backdrop-filter: blur(10px);
+  ">
+    🧠 Building a Small Language Model from Scratch
+  </span>
 </p>
+
 
 
 
