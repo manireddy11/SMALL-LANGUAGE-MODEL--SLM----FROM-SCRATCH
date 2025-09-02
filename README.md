@@ -34,3 +34,12 @@ This dataset provides a collection of short children’s stories — simple enou
 </p>
 
 
+The progress bars show successful loading of millions of tokens into memory, with automatic train/validation splits.
+
+
+🔹 Training Progress
+
+The model was trained for 20,000 iterations with checkpoints at every 500 epochs.
+I monitored both training loss and validation loss closely.
+
+
