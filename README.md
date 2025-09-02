@@ -1,19 +1,9 @@
 🧠 Building a Small Language Model from Scratch
 
-
 <p align="center">
-  <span style="
-    display:inline-block;
-    background-color:#ccffcc; /* soft pastel green */
-    color:white;
-    padding:15px 25px;
-    border-radius:15px;
-    font-size:28px;
-    font-weight:bold;
-  ">
-    🧠 Building a Small Language Model from Scratch
-  </span>
+  <img src="https://img.shields.io/badge/🧠%20Building%20a%20Small%20Language%20Model%20from%20Scratch-000000?style=for-the-badge&logoColor=white&labelColor=000000&color=000000" width="700"/>
 </p>
+
 
 
 
