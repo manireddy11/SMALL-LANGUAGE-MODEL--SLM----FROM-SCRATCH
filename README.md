@@ -1,122 +1,105 @@
-# SMALL-LANGUAGE-MODEL--SLM----FROM-SCRATCH
+🚀 Building a Small Language Model from Scratch
 
-
-
-🧠 Small Language Model from Scratch
-
+“I didn’t just use a pre-trained model — I built one from the ground up.”
 
 
 
 
 
-📌 Project Overview
 
-This repository contains a Jupyter Notebook that demonstrates how to build a Small Language Model (SLM) completely from scratch.
-Instead of relying on large pre-trained models, we implement the fundamental building blocks step by step to understand how a transformer-based LLM works under the hood.
+🌟 Why This Project?
 
-The notebook covers:
+In today’s AI landscape, most people start with Hugging Face models or APIs.
+But I wanted to go deeper — to really understand how a language model thinks.
 
-Tokenization and text preprocessing
+This notebook is the result of hours of coding, debugging, and training on Google Colab T4 GPU.
+It wasn’t easy — the runs were slow, memory was limited, and I had to optimize carefully.
+But I didn’t quit.
 
-Building embeddings
+What came out is a miniature language model that learns to read, understand, and generate text — all from scratch, without shortcuts.
 
-Implementing attention mechanisms
+📖 What’s Inside the Notebook?
 
-Training a small transformer
+The notebook is not just code.
+It’s a guided journey into the internals of a language model:
 
-Generating text outputs
+Data Preparation
 
-This project is meant for learning and research purposes, making LLM internals more accessible to AI enthusiasts.
+Cleaned and tokenized raw text into sequences.
 
-📂 Repository Structure
-├── Small Language Model Scratch Final.ipynb   # Main notebook
-├── README.md                                  # Project documentation
-└── data/                                      # (Optional) training corpus
+Built a custom vocabulary and embedding layer.
 
-⚙️ Installation & Setup
+Neural Architecture
 
-Clone the repository and install required dependencies:
+Implemented the transformer blocks step by step.
+
+Wrote attention mechanisms from scratch.
+
+Added positional encodings to make sense of word order.
+
+Training Loop
+
+Optimized with AdamW.
+
+Loss monitoring with live green progress bars.
+
+Saved checkpoints and generated intermediate outputs.
+
+Text Generation
+
+Prompted the model with a seed phrase.
+
+Watched it autocomplete and generate surprisingly coherent text.
+
+Visual Insights
+
+Loss curves, attention heatmaps, and output samples.
+
+Every visualization tells a story about how the model learns.
+
+⚡ Skills Demonstrated
+
+This project showcases my ability to:
+
+Understand transformer internals beyond just using libraries.
+
+Implement attention and embeddings from scratch.
+
+Work with limited compute (Colab T4) and still push through.
+
+Debug, optimize, and run long training cycles without giving up.
+
+Recruiters looking at this repo won’t just see code — they’ll see persistence, curiosity, and engineering depth.
+
+🖥️ How to Run
+
+Clone the repo and open the notebook:
 
 git clone https://github.com/your-username/small-language-model-scratch.git
 cd small-language-model-scratch
-
-# Create environment
-python -m venv venv
-source venv/bin/activate   # (Linux/Mac)
-venv\Scripts\activate      # (Windows)
-
-# Install dependencies
-pip install -r requirements.txt
-
-
-💡 Alternatively, open the notebook directly in Google Colab for a zero-setup experience.
-
-🚀 Usage
-
-Open the notebook:
-
 jupyter notebook "Small Language Model Scratch Final.ipynb"
 
 
-Run cells step by step to:
+Or run directly on Google Colab (recommended if you don’t have a GPU).
 
-Tokenize and preprocess input text
+🔮 Future Work
 
-Train the mini language model
+This is just the first milestone.
+In the future, I want to:
 
-Generate text predictions
+Train on larger corpora.
 
-Example output:
+Experiment with scaling layers/heads.
 
-Input: "Artificial Intelligence is"
-Output: "Artificial Intelligence is transforming the way we create and learn."
+Compare with pre-trained Hugging Face models.
 
-📊 Visualizations
+Deploy as a mini text-generation API.
 
-The notebook includes rich visualizations such as:
+❤️ Personal Note
 
-Training progress bars (green bars)
+This project was special because it reminded me that AI is not magic.
+Behind every giant model, there are small building blocks — embeddings, attention, layers — and I built them myself.
 
-Attention heatmaps
+It took patience, compute time, and late nights, but I walked away with true intuition about how language models work.
 
-Loss curves
-
-Text generation samples
-
-These plots help in understanding the model’s learning behavior.
-
-📖 Learning Objectives
-
-Understand the core components of a language model.
-
-Get hands-on with transformer architecture.
-
-Build intuition for how large-scale LLMs (GPT, Mistral, LLaMA, etc.) are trained.
-
-🛠️ Technologies Used
-
-Python (NumPy, PyTorch)
-
-Jupyter Notebook
-
-Matplotlib / Seaborn (for visualizations)
-
-🌟 Future Work
-
-Add support for larger datasets.
-
-Experiment with scaling the model.
-
-Compare performance with pre-trained Hugging Face models.
-
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to fork this repo, open an issue, or submit a pull request.
-
-📜 License
-
-This project is licensed under the MIT License – see the LICENSE
- file for details.
-
-✨ By building from scratch, we demystify the black box of LLMs and bring clarity to how they truly work.
+✨ If you’re a recruiter or collaborator: this isn’t just another NLP project — it’s proof that I can build, persist, and deliver even when the resources are limited.
