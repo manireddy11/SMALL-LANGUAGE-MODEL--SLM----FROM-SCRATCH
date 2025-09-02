@@ -4,14 +4,12 @@
 <p align="center">
   <span style="
     display:inline-block;
-    background: rgba(144, 238, 144, 0.25); /* light green with 25% opacity */
-    color: white;
-    padding: 15px 25px;
-    border-radius: 15px;
-    font-size: 28px;
-    font-weight: bold;
-    backdrop-filter: blur(10px); /* glass blur effect */
-    -webkit-backdrop-filter: blur(10px);
+    background-color:#ccffcc; /* soft pastel green */
+    color:white;
+    padding:15px 25px;
+    border-radius:15px;
+    font-size:28px;
+    font-weight:bold;
   ">
     🧠 Building a Small Language Model from Scratch
   </span>
