@@ -1,6 +1,14 @@
 🧠 Building a Small Language Model from Scratch
 
 
+<h1 align="center" style="
+  background-color:#90ee90;
+  color:white;
+  padding:20px;
+  border-radius:12px;
+">
+  🧠 Building a Small Language Model from Scratch
+</h1>
 
 
 
@@ -67,6 +75,91 @@ Once trained, I gave the model seed sentences like:
 
 “A little girl went to the woods.”
 
+
+<p align="center">
+  <a href="https://github.com/manireddy11/SMALL-LANGUAGE-MODEL--SLM----FROM-SCRATCH/blob/bb648b742326b34f117a766f1a1267d267152c4f/Screenshot%202025-08-26%20215919.png" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/manireddy11/SMALL-LANGUAGE-MODEL--SLM----FROM-SCRATCH/bb648b742326b34f117a766f1a1267d267152c4f/Screenshot%202025-08-26%20215919.png" alt="Project screenshot" style="max-width:100%; height:auto;" />
+  </a>
+</p>
+
+
+The model’s responses show:
+
+Coherent sentence structures.
+
+Story-like continuity.
+
+Occasional randomness (expected from small models).
+
+For example:
+
+“A little girl went to the woods and saw some fish. She was scared and so she ran away… Mary had a great time with her special surprise.”
+
+This is the beauty of training from scratch — seeing text emerge from noise into meaning.
+
+<p align="center">
+  <a href="https://github.com/manireddy11/SMALL-LANGUAGE-MODEL--SLM----FROM-SCRATCH/blob/bb648b742326b34f117a766f1a1267d267152c4f/Screenshot%202025-08-26%20215852.png" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/manireddy11/SMALL-LANGUAGE-MODEL--SLM----FROM-SCRATCH/bb648b742326b34f117a766f1a1267d267152c4f/Screenshot%202025-08-26%20215852.png" alt="Project screenshot" style="max-width:100%; height:auto;" />
+  </a>
+</p>
+
+
+⚡ Skills Demonstrated
+
+Transformer Internals: Built attention, embeddings, and positional encoding manually.
+
+PyTorch Engineering: Implemented training loops, schedulers, and optimizers.
+
+Resourcefulness: Managed with Colab T4 GPU constraints.
+
+Visualization: Monitored losses, dataset loading, and outputs with clear logs.
+
+Persistence: Spent hours fine-tuning and debugging until convergence.
+
+
+
+.
+
+🚀 How to Run
+
+Clone the repo:
+
+git clone https://github.com/your-username/small-language-model-scratch.git
+cd small-language-model-scratch
+
+
+Open the notebook in Colab or Jupyter:
+
+jupyter notebook "Small Language Model Scratch Final.ipynb"
+
+
+Train the model and generate your own text completions.
+
+🔮 Future Work
+
+Train on larger text corpora.
+
+Add sampling strategies (top-k, nucleus sampling).
+
+Scale layers/heads for better fluency.
+
+Deploy as a lightweight text generation API.
+
+❤️ Personal Reflection
+
+This project wasn’t just about code.
+It was about proving to myself — and to recruiters — that I can:
+
+Go beyond tutorials.
+
+Build complex systems under real constraints.
+
+Stick with the process until I get results.
+
+It took hours of patience, multiple reruns, and GPU limitations.
+But now I know: given the right resources, I can scale this into a real production-ready LLM pipeline.
+
+✨  This isn’t another Hugging Face fine-tune — it’s proof that I can engineer, persist, and deliver.
 
 
 
