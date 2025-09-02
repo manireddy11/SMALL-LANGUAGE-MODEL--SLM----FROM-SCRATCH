@@ -29,5 +29,8 @@ What I achieved is a working language model that generates coherent text stories
 I used the TinyStories dataset via Hugging Face.
 This dataset provides a collection of short children’s stories — simple enough to train a small model, but rich enough to demonstrate learning.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/manireddy11/SMALL-LANGUAGE-MODEL--SLM----FROM-SCRATCH/2473e314b2bb8796488226fa0dc782756027e238/Screenshot%202025-08-26%20220425.png" alt="Project screenshot" />
+</p>
 
 
